@@ -1,0 +1,34 @@
+# --- Núcleo de Ciencia de Datos ---
+# Fijamos numpy menor a 2.0 para evitar el error que tuviste
+numpy<2.0.0
+pandas>=2.0.0
+matplotlib>=3.7.1
+seaborn>=0.12.2
+scipy>=1.10.1
+
+# --- Machine Learning Clásico ---
+scikit-learn>=1.3.0
+lightgbm>=4.1.0
+xgboost>=2.0.3
+
+# --- Series Temporales (Predicción) ---
+statsmodels>=0.14.0
+# Prophet puede ser complejo en Windows, si falla, coméntalo e instálalo aparte
+prophet>=1.1.5
+
+# --- Deep Learning (LSTM, GRU) ---
+# TensorFlow incluye Keras
+tensorflow>=2.15.0
+
+# --- NLP & Transformers (Para BERT/Clasificación) ---
+transformers>=4.35.0
+torch>=2.1.0
+# Necesario para tokenización rápida
+tokenizers>=0.15.0
+
+# --- Entorno Jupyter & Utilidades ---
+jupyter
+notebook
+ipykernel
+openpyxl  # Para leer Excel si es necesario
+tqdm      # Barras de progreso.
